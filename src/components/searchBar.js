@@ -9,7 +9,7 @@ class SearchBar extends Component {
 
 	handleInputChange = ({ target }) => {
 		this.setState({ term: target.value });
-		this.props.onSearchTermChange(target.value);
+		this.props.onSearchTermChange(target.value || 'South Park');
 	};
 
 	render() {
