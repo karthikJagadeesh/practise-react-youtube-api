@@ -1,0 +1,17 @@
+html,
+body {
+	font-family: 'Noto Sans', monospace !important;
+	color: #53595d !important;
+	background-color: #f5f7f9 !important;
+}
+.searchBar {
+	text-align: center;
+	margin: 30px;
+}
+.searchBar input {
+	min-width: 60%;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	outline: none;
+	padding: 5px 15px;
+}
