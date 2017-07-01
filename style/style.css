@@ -9,9 +9,36 @@ body {
 	margin: 30px;
 }
 .searchBar input {
-	min-width: 60%;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 20px;
+	min-width: 30%;
+	border: none;
+	border-bottom: 3px solid #d82026;
+	background-color: #f5f7f9;
 	outline: none;
 	padding: 5px 15px;
+	transition-duration: 1s;
+}
+.searchBar input:focus {
+	min-width: 60%;
+	transition-duration: 0.2s;
+}
+.video-title {
+	border-bottom: 1px solid rgb(216, 32, 38);
+	/*padding-bottom: 0px;*/
+	font-weight: 900;
+	font-size: 1.2em;
+}
+.video-desc {
+	font-size: 0.9em;
+}
+.details {
+	margin-top: 20px;
+}
+.video-item {
+	cursor: pointer;
+}
+.video-item:hover {
+	background: #f3f3f3;
+}
+.video-detail {
+	margin-bottom: 20px;
 }
